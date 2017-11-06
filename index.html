@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+	<title>Hangman</title>
+  
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  
+<div class="jumbotron text-center">
+  
+  <h1>HANGMAN</h1>
+
+  <!--adding buttons to control game theme song-->
+
+ <hr>
+      
+
+        
+ <div class="row">
+
+    <div class="col-sm-1"></div>
+
+    <div class ="col-sm-5">
+        <img id="USA" src="assets/images/BorninthUSA.jpg" class="img-responsive"  width="304" height="236">
+
+        <br>
+
+        <p>Wins</p><br>
+             <p id ="wins"> </p>
+
+        <p>Losses</p>
+             <p id ="losses"> </p>
+
+
+    </div>
+
+    <div class ="col-sm-5">
+
+          	<div id="game">
+          	   <h3>Press any key to get started!</h3>
+            </div>
+
+                   <br>
+
+             <p id="placeHolder"> </p>
+            
+                   <br>                    
+
+             <P>Number of Guesses Remaining</P><br>
+             <p id="guessesLeft"> 10</p>
+
+                  <br>
+             
+
+             <p>Letters Already Used</p><br>
+             <p id ="lettersUsed"> </p>
+
+     </div>
+     <div class="col-sm-1"></div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+
+
+</body>
+</html>
