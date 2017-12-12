@@ -6,10 +6,19 @@ body {
 
 }
 
-.jumbotron {
+.jumbotron.text-center {
 font-family: Blippo- fantasy;
-color: #e0c8c8;
-background-color: #962626;
+color: yellow;
+background-color: #B22525; 
 
-	
 }
+
+.jumbrtron>hr {
+	border-top-color: black;
+}
+
+.row {
+	color: yellow;
+	font-size: 25px;
+}
+

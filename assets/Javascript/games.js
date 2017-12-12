@@ -1,16 +1,6 @@
 
 
-<script type="text/javascript">
-// JavaScript function that wraps everything
-    $(document).ready(function() {
-      // Gets Link for Theme Song
-      var audioElement = document.createElement("audio");
-      audioElement.setAttribute("src","Assets/audio/Bruce Springsteen-Born In The U.S.A.mp3");
-      //Pause Theme Song
-       $(".pause-button").on("click", function() {
-        audioElement.pause();
-        });
-    //Computer is going to randomly choose a word, user is going to get 7 wrong guesses to try to guess the word the computer chose 1 letter at a time. 
+ is going to randomly choose a word, user is going to get 7 wrong guesses to try to guess the word the computer chose 1 letter at a time. 
    
   //We will report out # of guesses remaining available. Report out of win/lose.
     //random options for the computer include 50 states
